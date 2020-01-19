@@ -28,7 +28,7 @@ if os.path.exists('Pipfile.lock'):
         ]
 
 setup(
-    name="pub",
+    name="ub",
     version="0.0.1",
     author="Alberto Vara",
     author_email="",
@@ -53,7 +53,7 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'pub = pub.url_benchmark:Command'
+            'ub = ub.url_benchmark:Command'
         ]
     },
     zip_safe=True,
