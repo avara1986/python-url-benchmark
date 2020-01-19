@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = "*"
+
+[dev-packages]
+coverage = "==4.5.4"
+pytest = "*"
+pytest-cov = "*"
+pylint = "*"
+flake8 = "*"
+tox = "*"
+bandit = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

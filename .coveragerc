@@ -1,0 +1,7 @@
+[run]
+include=*pub/*
+omit =
+    venv/*
+    .tox/*
+    django_scaffold.egg-info/*
+    */apps.py
