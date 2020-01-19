@@ -1,7 +1,5 @@
 [run]
-include=*pub/*
+include=*ub/*
 omit =
     venv/*
     .tox/*
-    django_scaffold.egg-info/*
-    */apps.py
