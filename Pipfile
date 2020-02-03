@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-aiohttp = "*"
+aiohttp = "==3.6.2"
 
 [dev-packages]
 coverage = "==4.5.4"
@@ -14,9 +14,7 @@ pylint = "*"
 flake8 = "*"
 tox = "*"
 bandit = "*"
+pytest-asyncio = "*"
 
 [requires]
 python_version = "3.7"
-
-[pipenv]
-allow_prereleases = true
