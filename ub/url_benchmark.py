@@ -65,7 +65,7 @@ class Command:
         self.print_verbose('[{}] Starting {}'.format(position, url))
         json_data = ""
         try:
-            async with ClientSession() as session:
+            async with ClientSession(headers=headers) as session:
                 async with session.get(url) as response:
                     json_data = await response.text()
                     total = time.time() - start
